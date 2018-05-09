@@ -1,0 +1,3 @@
+var BST = function (value) {
+    
+}

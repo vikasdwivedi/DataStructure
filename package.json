@@ -1,0 +1,15 @@
+{
+  "name": "datastructure",
+  "version": "1.0.0",
+  "description": "Datastructures implemented in vanilla Javascript",
+  "main": "LinkedList.js",
+  "scripts": {
+    "start": "node ./LinkedList.js"
+  },
+  "keywords": [
+    "javascript",
+    "datastructure"
+  ],
+  "author": "Vikas Dwivedi",
+  "license": "MIT"
+}
