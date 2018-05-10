@@ -5,7 +5,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/LinkedList",
+            "program": "${workspaceRoot}/BinarySearchTree",
             "stopOnEntry": false,
             "cwd": "${workspaceRoot}",
             "runtimeExecutable": null        }
