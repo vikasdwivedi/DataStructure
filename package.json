@@ -4,7 +4,7 @@
   "description": "Datastructures implemented in vanilla Javascript",
   "main": "LinkedList.js",
   "scripts": {
-    "start": "node ./LinkedList.js"
+    "start": "node ./BinarySearchTree.js"
   },
   "keywords": [
     "javascript",
