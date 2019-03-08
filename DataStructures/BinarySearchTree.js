@@ -73,7 +73,7 @@ function cnslOutput(value) {
     console.log(value);
 };
 
-
+    
 var Tree = new BST(50);
 Tree.insert(10);
 Tree.insert(60);
