@@ -8,6 +8,28 @@
             "program": "${workspaceRoot}/BinarySearchTree",
             "stopOnEntry": false,
             "cwd": "${workspaceRoot}",
-            "runtimeExecutable": null        }
+            "runtimeExecutable": null        },
+
+            {
+                "name": "(gdb) Launch",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "${workspaceFolder}/a.exe",
+                "args": [],
+                "stopAtEntry": false,
+                "cwd": "${workspaceFolder}",
+                "environment": [],
+                "externalConsole": true,
+                "MIMode": "gdb",
+                "miDebuggerPath": "C:\\mingw\\bin\\gdb.exe",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+                "preLaunchTask": "build hello world"
+            }
     ]
 }
